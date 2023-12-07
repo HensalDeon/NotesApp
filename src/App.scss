@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --yellow: #f5c32c;
+    --orange: #fca61f;
+    --dgreen: #092635;
+    --green: #5C8374;
+
+    --black: #242d49;
+    --gray: rgba(36, 45, 73, 0.65);
+    --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+    --hrColor: #cfcdcd;
+    --cardColor: rgba(255, 255, 255, 0.64);
+    --buttonBg: linear-gradient(98.63deg, #1B4242 0%, #5C8374 100%);
+    --inputColor: rgba(40, 52, 62, 0.07);
+    --photo: #4cb256;
+    --video: #4a4eb7;
+    --location: #ef5757;
+    --shedule: #e1ae4a;
+}
+body {
+    color: #092635;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.blur {
+    position: absolute;
+    width: 28rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #5b8c7c;
+    filter: blur(72px);
+    z-index: -1;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--buttonBg);
+    transition: all 100ms ease-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: var(--green);
+    background: transparent;
+    border: 2px solid var(--dgreen);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

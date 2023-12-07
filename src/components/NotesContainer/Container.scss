@@ -1,0 +1,26 @@
+.notes-container {
+    margin: 0 1rem;
+    padding: 1rem 1.2rem;
+    background: #092635;
+    height: calc(100vh - 5rem);
+    border-radius: 3vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    overflow: hidden;
+    overflow-y: auto;
+
+    .add {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        width: 3.3rem;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        @media (min-width: 768px) {
+            bottom: 2.5rem;
+            right: 2.5rem;
+        }
+    }
+}
