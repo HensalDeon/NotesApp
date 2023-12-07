@@ -1,4 +1,6 @@
 # Notes App
+<img width="960" alt="image" src="https://github.com/HensalDeon/NotesApp/assets/120702682/d4b4be70-93dd-4385-8d19-fc57945bb5fa">
+<img width="960" alt="image" src="https://github.com/HensalDeon/NotesApp/assets/120702682/ca3d8314-6972-47b4-943f-fb8e8e3b49b6">
 
 Welcome to the Notes App! This web application is built using React, Vite, Framer Motion, Yup, Formik, and Firebase. It allows users to manage their notes by adding, editing, and deleting them. The project is deployed on Firebase, and you can access it [here](https://notes-app-291a6.web.app/).
 
